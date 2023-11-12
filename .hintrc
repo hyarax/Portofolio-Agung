@@ -18,7 +18,8 @@
       {
         "ignore": [
           "scrollbar-color",
-          "scrollbar-width"
+          "scrollbar-width",
+          "width: fit-content"
         ]
       }
     ],
