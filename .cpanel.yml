@@ -1,7 +1,6 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/java2779/public_html/
+    - export DEPLOYPATH=/home/java2779/public_html/Porto_Agung
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
-    - /bin/cp global.css $DEPLOYPATH
     - /bin/cp -r src $DEPLOYPATH
