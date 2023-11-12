@@ -321,7 +321,7 @@ nav ul a:hover {
 }
 
 .hero-img {
-	background-image: url(/src/media/me.webp);
+	background-image: url("https://avatars.githubusercontent.com/u/75674174?v=4");
 	width: 35rem;
 	height: 35rem;
 	background-size: cover;
@@ -846,32 +846,33 @@ footer h3 {
 	font-size: 1.7rem;
 	color: white;
 }
-
-.footer {
+.footerc {
+	align-items: center;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 }
 @media (max-width: 550px) {
 	.footerc {
 		flex-wrap: wrap;
-		justify-content: center;
 		gap: 2rem;
+		justify-content: center;
 		text-align: center;
 	}
 }
 .footerc_socials {
-	display: flex;
-	gap: 1rem;
 	align-items: center;
+	display: flex;
+	gap: 2rem;
 	justify-content: center;
 	margin-top: 1rem;
 }
 .footerc_socials a {
+	color: #fff;
 	font-size: 2.3rem;
-	color: white;
 }
 .footerc_socials a:hover {
+	-webkit-transform: scale(1.2);
 	transform: scale(1.2);
 	transition: all 0.2s ease-in-out;
-} /*# sourceMappingURL=styles.css.map */
+}
+/*# sourceMappingURL=styles.css.map */
